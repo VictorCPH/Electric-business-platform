@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/12/11 21:35:58。
+     1>项目“E:\Visual Studio 2015\bank\bank\bank.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Visual Studio 2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Bank.cpp
+         Bank.cpp
+     1>e:\visual studio 2015\bank\bank\bank.cpp(12): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>e:\visual studio 2015\bank\bank\bank.cpp(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>e:\visual studio 2015\bank\bank\bank.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>e:\visual studio 2015\bank\bank\bank.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>e:\visual studio 2015\bank\bank\bank.cpp(206): warning C4018: “>”: 有符号/无符号不匹配
+       Link:
+         E:\Visual Studio 2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Visual Studio 2015\bank\Debug\bank.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Visual Studio 2015\bank\Debug\bank.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Visual Studio 2015\bank\Debug\bank.lib" /MACHINE:X86 Debug\Bank.obj
+         Debug\BankCard.obj
+         Debug\BankCardText.obj
+         Debug\main.obj
+         bank.vcxproj -> E:\Visual Studio 2015\bank\Debug\bank.exe
+     1>已完成生成项目“E:\Visual Studio 2015\bank\bank\bank.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.90
